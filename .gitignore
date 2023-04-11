@@ -1,0 +1,8 @@
+.terraform
+.terraform.*
+*.tfstate
+.venv
+certs/certificate.crt
+certs/private.key
+terraform-exercise.json
+.DS_Store

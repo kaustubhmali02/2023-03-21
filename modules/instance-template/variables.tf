@@ -1,0 +1,11 @@
+variable "name" {}
+variable "project" {}
+variable "deploy_version" {}
+variable "image_name" {}
+variable "machine_type" {}
+variable "network" {}
+variable "subnet" {}
+variable "instance_description" {}
+variable "instance_template_description" {}
+variable "email" {}
+variable "tags" {}

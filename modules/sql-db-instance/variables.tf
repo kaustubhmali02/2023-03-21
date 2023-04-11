@@ -1,0 +1,12 @@
+variable "project" {}
+variable "region" {}
+variable "zone" {}
+variable "name" {}
+variable "network" {}
+variable "network_name" {}
+variable "network_vpc_selflink" {}
+variable "subnetwork_subnet_self_link" {}
+variable "db_user_name" {}
+variable "db_password" {}
+variable "tags_proxy_server" {}
+variable "email" {}
