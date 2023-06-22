@@ -1,4 +1,4 @@
-output "db_proxy_public_ip"  {
+output "db_proxy_public_ip" {
   value = module.sql-db-instance.db_proxy_public_ip
 }
 

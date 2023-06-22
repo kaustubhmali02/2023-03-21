@@ -93,4 +93,6 @@ resource "google_compute_instance" "db_proxy" {
     email  = var.email
     scopes = ["cloud-platform"]
   }
+
+  depends_on = [ google_sql_database_instance.main_primary ]
 }

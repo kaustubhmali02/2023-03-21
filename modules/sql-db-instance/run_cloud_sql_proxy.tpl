@@ -10,4 +10,4 @@ docker run \
   gcr.io/cloudsql-docker/gce-proxy:latest /cloud_sql_proxy \
   -credential_file=/key.json \
   -ip_address_types=PRIVATE \
-  -instances='${db_instance_name}'=tcp:0.0.0.0:3306
+  -instances=${db_instance_name}=tcp:0.0.0.0:3306
